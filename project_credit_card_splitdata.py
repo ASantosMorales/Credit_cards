@@ -6,7 +6,7 @@ Created on Sat Nov 25 12:27:19 2017
 @author: a_santos
 
 Since the data were modified the next step is to split them in training and
-testing sets. The data are unvalanced because there are a lot of zero-targets
+testing sets. The data are unbalanced because there are a lot of zero-targets
 and only about 20% of one-targets. I have to be careful at the time of spliting data.
 This script tries to overcome these problem. 
 
@@ -17,9 +17,9 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 
 #%% Get modified data
-path = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_modified.npy' 
+path = 'Write the .npy file path here' 
 data = np.load(path)
-#%% Arrangement data (unvalanced data)
+#%% Arrangement data (unbalanced data)
 data_ones = []
 data_zeros = []
 for i in range(len(data)):
