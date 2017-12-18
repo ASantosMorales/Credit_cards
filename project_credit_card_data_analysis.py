@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick #To use scientific notation in the axis
 
 # Get data
-path = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/default_of_credit_card_clients.xls'
+path = 'Write the .xls file path here'
 xl = pd.read_excel(path)
 end_data = len(xl)
 data = np.array(xl.as_matrix()[1:end_data, :], dtype = np.float)
