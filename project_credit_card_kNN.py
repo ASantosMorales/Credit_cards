@@ -24,15 +24,15 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import mean_squared_error
 
 #%% Get the preprocessed data
-path_data_train_1 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_train_1.npy'
-path_data_train_2 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_train_2.npy'
-path_data_train_3 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_train_3.npy'
-path_data_train_4 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_train_4.npy'
+path_data_train_1 = 'Write the corresponding .npy file path here'
+path_data_train_2 = 'Write the corresponding .npy file path here'
+path_data_train_3 = 'Write the corresponding .npy file path here'
+path_data_train_4 = 'Write the corresponding .npy file path here'
 
-path_data_test_1 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_test_1.npy'
-path_data_test_2 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_test_2.npy'
-path_data_test_3 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_test_3.npy'
-path_data_test_4 = '/home/a_santos/Documents/TEC de Monterrey/Semestre_3/Receonocimiento de patrones/Proyecto_Final/Data_preprocessing/data_test_4.npy'
+path_data_test_1 = 'Write the corresponding .npy file path here'
+path_data_test_2 = 'Write the corresponding .npy file path here'
+path_data_test_3 = 'Write the corresponding .npy file path here'
+path_data_test_4 = 'Write the corresponding .npy file path here'
 
 data_train_1 = np.load(path_data_train_1)
 data_train_2 = np.load(path_data_train_2)
